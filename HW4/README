@@ -1,0 +1,28 @@
+Part 1:
+
+	Run "Part_1.m"
+	A - section "%% Prob. A"
+	B, C - seciont "%% Prob. B, C"
+
+	Note that I've saved variables of corners of books in 'corner_list.mat', if you wnat to re-label it, you can uncomment code.
+
+Part 2:
+	Run "Part_1.m" directly, I've saved better results. 
+	If you want to examine the procedures of A, B and C, yo can uncomment section '%%  get  transformed img' than run the section '%% Combine Pictures'
+
+	the images of the section '%%  get  transformed img'  is the discussion and trial of A, B, C
+
+	"" Note that if you uncomment the section '%%  get  transformed img and then re-compute, there may be  exist an opportinuty that code can;t work correctly because my code is not flexible. Just keep try it, or you just don't save it"
+---------------------------------------------------------------------------\
+Ohter resiurces and functions
+
+'get_sift_and_corres.m': compute corres and sift feature
+'myRANSAC.m': RANSAC func
+'prob2_A.m': to get homography matrix
+'Color_bilinear.m': For backward warping
+
+'visualization_corres.m': for visualization corres, in/out-liers and deviations
+'visualization_homo.m': for visualization original label and transformed boundaries
+
+'corner_list.mat': human labeled boundary info
+'trans_left_img.jpg', 'trans_right_img.jpg': transformed and backward warping results

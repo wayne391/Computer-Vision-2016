@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Part1: run "Part_1.m" in the following way:
+
+%% section #1: Parameter Setting
+K = 3, 7, 11
+type = 'RGB', 'LUV'
+
+-------------------------------------
+%% section #2: Random initial
+to get the result of random initial:
+run #1 then #2
+
+-------------------------------------
+%% section #3: Manual initial
+to get the result of random initial:
+run #1 then #3
+You need to choose input points
+
+
+(Totally 12 combinations: 3(K) x 2(type) x 2(section for input method) = 12(images))
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Part2: run "Part_2.m"
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Part3: run "Part_3.m" & "Part_3_sp.m" for "color" and "color + space" respectively
+
+---
+(A) for RGB & (C) for LUV: For only color feature, run "Part_3.m"
+parameter setting:
+type = 'RGB' or 'LUV'
+bandwidth = ???
+thres_similar = ???
+
+
+
+---
+(B) for RGB & (C) for LUV: For space & color feature, run "Part_3_sp.m"
+parameter setting:
+type = 'RGB' or 'LUV'
+bandwidth = ???
+thres_similar = ???
+bandwidth_sp = ???
+thres_similar_sp = ???
+
+
+
+
+
+## others ##
+
+myKmeans.m: for kmeans
+Luv2RGB.m & RGB2Luv.m: for transformation, its source is from web
